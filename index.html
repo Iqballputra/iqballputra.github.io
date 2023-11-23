@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PEKERJA</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- my font -->
+    <link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet" />
+
+    <!-- my css -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top shadow">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">PEKERJA</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link" href="petunjuk/index.html">Petunjuk Penggunaan</a>
+            <a class="nav-link" aria-current="page" href="Kuis App/index.html">Quiz</a>
+            <a class="nav-link" href="profil/indexprofil.html">Profil</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- akhir navbar -->
+
+    <!-- jumbotron -->
+    <div class="pembungkus">
+      <div class="jumbotron img-fluid"></div>
+      <h1>(Peta Kerajaan Indonesia)</h1>
+      <ul class="popup-lokasi">
+        <li>
+          <a href="#gambar-jatim" class="lokasi jatim">
+            <span>Jawa Timur</span>
+          </a>
+
+          <div class="overlay-lokasi" id="gambar-jatim">
+            <div class="container">
+              <ul class="gambar">
+                <li>
+                  <!-- <a href="#kediri" onclick="audio.play()"> -->
+                  <!-- <a href="#kediri" id="dubkediri"> -->
+                  <a href="#kediri" class="dubkediri">
+                    <img src="img/kediri.jpg" alt="Kerajaan Kediri" />
+                    <span>KERAJAAN KEDIRI</span>
+                  </a>
+
+                  <div class="overlay" id="kediri">
+                    <a href="#" onclick="audio.pause()" class="close">X</a>
+                    <a href="#majapahit" class="kiri">kiri</a>
+                    <img src="gambargede/kedirigede.png" class="gambargede" alt="kediri" />
+                    <a href="#singosari" class="kanan">kanan</a>
+                  </div>
+                </li>
+
+                <li>
+                  <a href="#singosari">
+                    <img src="img/singosari.jpg" alt="singosari" />
+                    <span>KERAJAAN SINGOSARI</span>
+                  </a>
+
+                  <div class="overlay" id="singosari">
+                    <a href="#" class="close">X</a>
+                    <a href="#kediri" class="kiri">kiri</a>
+                    <img src="gambargede/singosarigede.png" class="gambargede" alt="singosari" />
+                    <a href="#majapahit" class="kanan">kanan</a>
+                  </div>
+                </li>
+
+                <li>
+                  <a href="#majapahit">
+                    <img src="img/majapahit.jpg" alt="majapahit" />
+                    <span>KERAJAAN MAJAPAHIT</span>
+                  </a>
+                  <div class="overlay" id="majapahit">
+                    <a href="#" class="close">X</a>
+                    <a href="#singosari" class="kiri">kiri</a>
+                    <img src="gambargede/majapahitgede.png" class="gambargede" alt="majapahit" />
+                    <a href="#kediri" class="kanan">kanan</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li>
+          <a href="#gambar-kaltim" class="lokasi kaltim">
+            <span>Kalimantan Timur</span>
+          </a>
+
+          <div class="overlay-lokasi" id="gambar-kaltim">
+            <div class="container gambar-individu">
+              <ul class="gambar">
+                <li>
+                  <a href="#kutai" onclick="audio.play()">
+                    <img src="img/kutai.jpg" alt="Kerajaan kutai" />
+                    <span
+                      >KERAJAAN <br />
+                      KUTAI</span
+                    >
+                  </a>
+
+                  <div class="overlay" id="kutai">
+                    <a href="#" onclick="audio.pause()" class="close">X</a>
+                    <img src="gambargede/kutaigede.png" class="gambargede" alt="kutai" />
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li>
+          <a href="#gambar-tarumanegara" class="lokasi jabar">
+            <span>Jawa Barat</span>
+          </a>
+
+          <div class="overlay-lokasi" id="gambar-tarumanegara">
+            <div class="container gambar-individu">
+              <ul class="gambar">
+                <li>
+                  <a href="#tarumanegara" onclick="audio.play()">
+                    <img src="img/tarumanegara.jpg" alt="Kerajaan tarumanegara" />
+                    <span
+                      >KERAJAAN <br />
+                      TARUMANEGARA</span
+                    >
+                  </a>
+
+                  <div class="overlay" id="tarumanegara">
+                    <a href="#" onclick="audio.pause()" class="close">X</a>
+                    <img src="gambargede/tarumanegaragede.png" class="gambargede" alt="tarumanegara" />
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li>
+          <a href="#gambar-jateng" class="lokasi jateng">
+            <span>Jawa Tengah</span>
+          </a>
+
+          <div class="overlay-lokasi" id="gambar-jateng">
+            <div class="container gambar-dua">
+              <ul class="gambar">
+                <li>
+                  <a href="#kalingga">
+                    <img src="img/kalingga.jpg" alt="Kerajaan kalingga" />
+                    <span>KERAJAAN <br />KALINGGA</span>
+                  </a>
+
+                  <div class="overlay" id="kalingga">
+                    <a href="#" class="close">X </a>
+                    <img src="gambargede/kalinggagede.png" class="gambargede" alt="kalingga" />
+                    <a href="#mataram" class="kanan">kanan</a>
+                  </div>
+                </li>
+
+                <li>
+                  <a href="#mataram">
+                    <img src="img/mataram.jpg" alt="mataram" />
+                    <span>KERAJAAN <br />MATARAM</span>
+                  </a>
+
+                  <div class="overlay" id="mataram">
+                    <a href="#" class="close">X</a>
+                    <a href="#kalingga" class="kiri">kiri</a>
+                    <img src="gambargede/mataramgede.png" class="gambargede" alt="mataram" />
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li>
+          <a href="#gambar-sumsel" class="lokasi sumsel">
+            <span>Sumatera Selatan</span>
+          </a>
+
+          <div class="overlay-lokasi" id="gambar-sumsel">
+            <div class="container gambar-individu">
+              <ul class="gambar">
+                <li>
+                  <a href="#sriwijaya" onclick="audio.play()">
+                    <img src="img/sriwijaya.jpg" alt="Kerajaan sriwijaya" />
+                    <span
+                      >KERAJAAN <br />
+                      SRIWIJAYA</span
+                    >
+                  </a>
+
+                  <div class="overlay" id="sriwijaya">
+                    <a href="#" onclick="audio.pause()" class="close">X</a>
+                    <img src="gambargede/sriwijayagede.png" class="gambargede" alt="sriwijaya" />
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li>
+          <a href="#gambar-aceh" class="lokasi aceh">
+            <span>Nangro Aceh Darussalam</span>
+          </a>
+
+          <div class="overlay-lokasi" id="gambar-aceh">
+            <div class="container gambar-dua">
+              <ul class="gambar">
+                <li>
+                  <a href="#samudera">
+                    <img src="img/samuderapasai.jpg" alt="Kerajaan samudera pasai" />
+                    <span
+                      >KERAJAAN <br />SAMUDERA <br />
+                      PASAI</span
+                    >
+                  </a>
+
+                  <div class="overlay" id="samudera">
+                    <a href="#" class="close">X</a>
+                    <img src="gambargede/samuderapasaigede.png" class="gambargede" alt="samudera pasai" />
+                    <a href="#kerajaanaceh" class="kanan">kanan</a>
+                  </div>
+                </li>
+
+                <li>
+                  <a href="#kerajaanaceh">
+                    <img src="img/aceh.jpg" alt="aceh" />
+                    <span>KERAJAAN <br />ACEH</span>
+                  </a>
+
+                  <div class="overlay" id="kerajaanaceh">
+                    <a href="#" class="close">X</a>
+                    <a href="#samudera" class="kiri">kiri</a>
+                    <img src="gambargede/aceh gede.png" class="gambargede" alt="aceh" />
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li>
+          <a href="#gambar-banten" class="lokasi banten">
+            <span>Banten</span>
+          </a>
+
+          <div class="overlay-lokasi" id="gambar-banten">
+            <div class="container gambar-individu">
+              <ul class="gambar">
+                <li>
+                  <a href="#banten" onclick="audio.play()">
+                    <img src="img/banten.jpg" alt="Kerajaan banten" />
+                    <span
+                      >KERAJAAN <br />
+                      BANTEN</span
+                    >
+                  </a>
+
+                  <div class="overlay" id="banten">
+                    <a href="#" onclick="audio.pause()" class="close">X</a>
+                    <img src="gambargede/bantengede.png" class="gambargede" alt="banten" />
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li>
+          <a href="#gambar-malukuutara" class="lokasi malukuutara">
+            <span>Maluku Utara</span>
+          </a>
+
+          <div class="overlay-lokasi" id="gambar-malukuutara">
+            <div class="container gambar-individu">
+              <ul class="gambar">
+                <li>
+                  <a href="#ternate" onclick="audio.play()">
+                    <img src="img/ternate.jpg" alt="Kerajaan ternate" />
+                    <span
+                      >KERAJAAN <br />
+                      TERNATE</span
+                    >
+                  </a>
+
+                  <div class="overlay" id="ternate">
+                    <a href="#" onclick="audio.pause()" class="close">X</a>
+                    <img src="gambargede/ternategede.png" class="gambargede" alt="ternate" />
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li>
+          <a href="#gambar-maluku" class="lokasi maluku">
+            <span>Maluku</span>
+          </a>
+
+          <div class="overlay-lokasi" id="gambar-maluku">
+            <div class="container gambar-individu">
+              <ul class="gambar">
+                <li>
+                  <a href="#tidore" onclick="audio.play()">
+                    <img src="img/tidore.jpg" alt="Kerajaan tidore" />
+                    <span
+                      >KERAJAAN <br />
+                      TIDORE</span
+                    >
+                  </a>
+
+                  <div class="overlay" id="tidore">
+                    <a href="#" onclick="audio.pause()" class="close">X</a>
+                    <img src="gambargede/tidoregede.png" class="gambargede" alt="tidore" />
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li>
+          <a href="#gambar-gowa" class="lokasi sulsel">
+            <span>Sulawesi Selatan</span>
+          </a>
+
+          <div class="overlay-lokasi" id="gambar-gowa">
+            <div class="container gambar-individu">
+              <ul class="gambar">
+                <li>
+                  <a href="#gowa" onclick="audio.play()">
+                    <img src="img/gowa.jpg" alt="Kerajaan gowa" />
+                    <span
+                      >KERAJAAN <br />
+                      GOWA</span
+                    >
+                  </a>
+
+                  <div class="overlay" id="gowa">
+                    <a href="#" onclick="audio.pause()" class="close">X</a>
+                    <img src="gambargede/gowagede.png" class="gambargede" alt="gowa" />
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <!-- akhir jumbotron -->
+
+    <!-- akhir kontainer -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

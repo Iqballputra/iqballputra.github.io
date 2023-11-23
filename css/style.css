@@ -1,0 +1,568 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* navbar */
+.navbar {
+  background-color: #ffc567;
+}
+
+.navbar-brand {
+  font-family: viga;
+  font-size: 32px;
+  margin-left: 30px;
+  color: #3085c3;
+  opacity: 0.8;
+  text-shadow: 1px 2px 3px #fd5a46, 0px 0px 0px #000, 1px 2px 3px #ffc567;
+}
+
+.nav-link {
+  text-transform: uppercase;
+  margin-right: 30px;
+  font-family: viga;
+}
+
+.nav-link:hover::after {
+  content: '';
+  display: block;
+  border-bottom: 3px solid #0b63dc;
+  width: 50%;
+  margin: auto;
+  padding: 2px;
+  margin-bottom: -6px;
+}
+
+/* jumbotron */
+
+.jumbotron {
+  background-image: url('../img/gambar-peta.png');
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.pembungkus h1 {
+  font-family: viga, arial;
+  position: absolute;
+  margin-top: 85px;
+  margin-left: 33%;
+  font-size: 40px;
+  color: black;
+  opacity: 0.8;
+  text-shadow: 1px 2px 3px #fd5a46, 0px 0px 0px #000, 1px 2px 3px #ffc567;
+}
+
+.popup-lokasi li a {
+  width: 70px;
+  height: 70px;
+  background-image: url('../img/lokasi.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: block;
+  position: absolute;
+  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0.75));
+}
+
+.popup-lokasi li span {
+  display: block;
+  width: 82px;
+  height: 10px;
+  font-family: viga, arial;
+  text-transform: uppercase;
+  color: white;
+  font-size: 12px;
+  margin-top: 70px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul li .jatim {
+  margin-top: 490px;
+  margin-left: 510px;
+  animation: jatim 0.7s ease infinite alternate forwards;
+}
+
+.jatim:hover,
+.kaltim:hover,
+.jabar:hover,
+.jateng:hover,
+.sumsel:hover,
+.aceh:hover,
+.banten:hover,
+.malukuutara:hover,
+.maluku:hover,
+.sulsel:hover {
+  animation: jatim paused;
+}
+
+@keyframes jatim {
+  from {
+    margin-left: 510px;
+  }
+  to {
+    margin-top: 483px;
+  }
+}
+
+.kaltim {
+  margin-top: 230px;
+  margin-left: 610px;
+  animation: kaltim 0.7s ease infinite alternate forwards;
+}
+
+@keyframes kaltim {
+  from {
+    margin-left: 610px;
+  }
+  to {
+    margin-top: 223px;
+  }
+}
+
+.jabar {
+  margin-left: 350px;
+  margin-top: 455px;
+  animation: jabar 0.7s ease infinite alternate forwards;
+}
+
+@keyframes jabar {
+  from {
+    margin-left: 350px;
+  }
+  to {
+    margin-top: 448px;
+  }
+}
+
+.jateng {
+  margin-left: 430px;
+  margin-top: 465px;
+  animation: jateng 0.7s ease infinite alternate forwards;
+}
+
+@keyframes jateng {
+  from {
+    margin-left: 430px;
+  }
+  to {
+    margin-top: 458px;
+  }
+}
+
+.sumsel {
+  margin-left: 260px;
+  margin-top: 360px;
+  animation: sumsel 0.7s ease infinite alternate forwards;
+}
+
+@keyframes sumsel {
+  from {
+    margin-left: 260px;
+  }
+  to {
+    margin-top: 353px;
+  }
+}
+
+.aceh {
+  margin-left: 40px;
+  margin-top: 115px;
+  animation: aceh 0.7s ease infinite alternate forwards;
+}
+
+@keyframes aceh {
+  from {
+    margin-left: 40px;
+  }
+  to {
+    margin-top: 108px;
+  }
+}
+
+.banten {
+  margin-left: 305px;
+  margin-top: 445px;
+  animation: banten 0.7s ease infinite alternate forwards;
+}
+
+@keyframes banten {
+  from {
+    margin-left: 305px;
+  }
+  to {
+    margin-top: 438px;
+  }
+}
+
+.malukuutara {
+  margin-left: 920px;
+  margin-top: 230px;
+  animation: malukuutara 0.7s ease infinite alternate forwards;
+}
+
+@keyframes malukuutara {
+  from {
+    margin-left: 920px;
+  }
+  to {
+    margin-top: 223px;
+  }
+}
+
+.maluku {
+  margin-left: 950px;
+  margin-top: 345px;
+  animation: maluku 0.7s ease infinite alternate forwards;
+}
+
+@keyframes maluku {
+  from {
+    margin-left: 950px;
+  }
+  to {
+    margin-top: 338px;
+  }
+}
+
+.sulsel {
+  margin-left: 695px;
+  margin-top: 375px;
+  animation: sulsel 0.7s ease infinite alternate forwards;
+}
+
+@keyframes sulsel {
+  from {
+    margin-left: 695px;
+  }
+  to {
+    margin-top: 368px;
+  }
+}
+
+/* overlay */
+.overlay-lokasi {
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0);
+  z-index: 1;
+}
+
+.overlay-lokasi:target {
+  width: auto;
+  height: auto;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.8);
+  transition: 0.8s;
+}
+
+/* kontainer */
+.container {
+  width: 700px;
+  margin: 200px 25%;
+  padding: 15px;
+  background-color: lightgrey;
+  box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+  position: relative;
+}
+
+.gambar-individu {
+  width: 250px;
+  margin: 200px auto;
+  padding: 8px;
+  background-color: lightgrey;
+  box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+  position: relative;
+}
+
+.gambar-dua {
+  width: 500px;
+  margin: 200px auto;
+  padding: 18px;
+  background-color: lightgrey;
+  box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+  position: relative;
+}
+
+.gambar li {
+  height: 200px;
+  width: 200px;
+  margin-left: 20px;
+  border-radius: 20%;
+  box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  display: inline-block;
+  position: relative;
+}
+
+.gambar li span {
+  display: block;
+  width: 200px;
+  height: 200px;
+  background-color: rgba(200, 200, 200, 0.5);
+  position: absolute;
+  top: -70px;
+  text-align: center;
+  line-height: 25px;
+  color: #333;
+  text-shadow: 1px 1px 1px #ddd;
+  opacity: 0;
+  transition: 0.3s;
+  border-radius: 20%;
+  font-family: viga, arial;
+}
+
+.gambar li a:hover span {
+  opacity: 1;
+  font-size: 24px;
+}
+
+.overlay {
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  position: fixed;
+  text-align: center;
+  padding: 100px 0px;
+  background-color: rgb(0, 0, 0, 0);
+  top: 0;
+  right: 0;
+  z-index: 9999;
+  transition: 1s;
+}
+
+.overlay:target {
+  width: auto;
+  height: auto;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(0, 0, 0, 0.8);
+}
+
+.overlay img {
+  max-height: 100%;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
+}
+
+.overlay:target img {
+  animation: yo 1s;
+}
+
+.overlay .close {
+  position: fixed;
+  font-family: viga, arial;
+  width: 45px;
+  height: 45px;
+  top: 90px;
+  margin-left: 70%;
+  background-color: red;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  transition: 1s;
+  font-size: 22px;
+  z-index: 1;
+}
+
+.overlay:target .close {
+  animation: yo 1s;
+}
+
+.gambargede {
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.overlay .kanan {
+  width: 161px;
+  height: 161px;
+  background-image: url('../navigasi/kanannan.png');
+  position: absolute;
+  text-indent: -9999%;
+  top: 30%;
+  left: 75%;
+  filter: drop-shadow(3px 3px 3px rgba(0, 0, 0.75));
+}
+
+.overlay:target .kanan {
+  animation: yo 1s;
+}
+
+.overlay .kiri {
+  width: 161px;
+  height: 161px;
+  background-image: url('../navigasi/kiriri.png');
+  position: absolute;
+  text-indent: -9999%;
+  top: 30%;
+  left: 13%;
+  filter: drop-shadow(3px 3px 3px rgba(0, 0, 0.75));
+}
+
+.overlay:target .kiri {
+  animation: yo 1s;
+}
+
+.close:hover {
+  filter: brightness(110%);
+}
+
+.kanan:hover,
+.kiri:hover {
+  width: 165px;
+  height: 165px;
+  transition: 0.1s;
+  filter: brightness(105%);
+}
+
+@keyframes yo {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
