@@ -145,6 +145,10 @@ body {
   text-shadow: 1px 2px 3px #fd5a46, 0px 0px 0px #000, 1px 2px 3px #ffc567;
 }
 
+.pekerja {
+  font-size: 12px;
+}
+
 .nav-link {
   text-transform: uppercase;
   margin-right: 30px;
@@ -162,6 +166,7 @@ body {
 }
 
 .jumbotron img {
+  margin-top: 30px;
   width: 250px;
   height: 250px;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
