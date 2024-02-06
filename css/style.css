@@ -162,6 +162,80 @@ table {
   margin-bottom: -6px;
 }
 
+/* alert */
+/* .container-alert {
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 999;
+} */
+
+.peringatan {
+  width: 400px;
+  height: 200px;
+  background: #fff;
+  border: solid;
+  border-radius: 8px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  visibility: visible;
+  z-index: 999;
+}
+
+.closealert {
+  visibility: hidden;
+  top: 0;
+  transform: translate(-50%, -50%) scale(0.1);
+  z-index: -999;
+}
+
+.alert {
+  width: 120px;
+  margin-top: -35px;
+}
+
+.p {
+  font-family: viga;
+  margin-top: -45px;
+  font-size: 25px;
+}
+
+.perlu {
+  font-family: viga;
+  width: 150px;
+  height: 25px;
+  border-radius: 6px;
+  position: absolute;
+  top: 70%;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transform: translate(-50%, -50%);
+}
+
+.tidak {
+  width: 150px;
+  height: 25px;
+  font-family: viga;
+  border-radius: 6px;
+  position: absolute;
+  top: 85%;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transform: translate(-50%, -50%);
+}
+
+.tidak:hover,
+.perlu:hover {
+  background-color: aquamarine;
+}
+
 /* jumbotron */
 
 .jumbotron {
@@ -557,6 +631,12 @@ ul li .jatim {
   height: 165px;
   transition: 0.1s;
   filter: brightness(105%);
+}
+
+.audio {
+  position: absolute;
+  top: 87%;
+  left: 40%;
 }
 
 @keyframes yo {

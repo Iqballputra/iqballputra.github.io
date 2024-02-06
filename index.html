@@ -36,6 +36,18 @@
     </nav>
     <!-- akhir navbar -->
 
+    <!-- alert -->
+
+    <div class="container-alert">
+      <div class="peringatan" id="peringatan">
+        <img class="alert" src="img/alert.png" alt="alert" />
+        <h2 class="p">Perlu Petunjuk Penggunaan?</h2>
+        <button class="perlu" onclick="popup(), closealert()" type="button">PERLU</button>
+        <button class="tidak" onclick="closealert()" type="button">TIDAK</button>
+      </div>
+    </div>
+    <!-- akhir alert -->
+
     <!-- jumbotron -->
     <div class="pembungkus">
       <div class="jumbotron img-fluid"></div>
@@ -62,6 +74,9 @@
                     <a href="#majapahit" class="kiri">kiri</a>
                     <img src="gambargede/kedirigede.png" class="gambargede" alt="kediri" />
                     <a href="#singosari" class="kanan">kanan</a>
+                    <audio controls class="audio">
+                      <source src="dubbing/kediri.mp3" type="audio/mp3" />
+                    </audio>
                   </div>
                 </li>
 
@@ -76,6 +91,9 @@
                     <a href="#kediri" class="kiri">kiri</a>
                     <img src="gambargede/singosarigede.png" class="gambargede" alt="singosari" />
                     <a href="#majapahit" class="kanan">kanan</a>
+                    <audio controls class="audio">
+                      <source src="dubbing/singosari.mp3" type="audio/mp3" />
+                    </audio>
                   </div>
                 </li>
 
@@ -89,6 +107,9 @@
                     <a href="#singosari" class="kiri">kiri</a>
                     <img src="gambargede/majapahitgede.png" class="gambargede" alt="majapahit" />
                     <a href="#kediri" class="kanan">kanan</a>
+                    <audio controls class="audio">
+                      <source src="dubbing/majapahit.mp3" type="audio/mp3" />
+                    </audio>
                   </div>
                 </li>
               </ul>
@@ -115,6 +136,9 @@
                   <div class="overlay" id="kutai">
                     <a href="#" onclick="audio.pause()" class="close">X</a>
                     <img src="gambargede/kutaigede.png" class="gambargede" alt="kutai" />
+                    <audio controls class="audio">
+                      <source src="dubbing/kutai.mp3" type="audio/mp3" />
+                    </audio>
                   </div>
                 </li>
               </ul>
@@ -141,6 +165,9 @@
                   <div class="overlay" id="tarumanegara">
                     <a href="#" onclick="audio.pause()" class="close">X</a>
                     <img src="gambargede/tarumanegaragede.png" class="gambargede" alt="tarumanegara" />
+                    <audio controls class="audio">
+                      <source src="dubbing/tarumanegara.mp3" type="audio/mp3" />
+                    </audio>
                   </div>
                 </li>
               </ul>
@@ -165,6 +192,9 @@
                     <a href="#" class="close">X </a>
                     <img src="gambargede/kalinggagede.png" class="gambargede" alt="kalingga" />
                     <a href="#mataram" class="kanan">kanan</a>
+                    <audio controls class="audio">
+                      <source src="dubbing/kalingga.mp3" type="audio/mp3" />
+                    </audio>
                   </div>
                 </li>
 
@@ -178,6 +208,9 @@
                     <a href="#" class="close">X</a>
                     <a href="#kalingga" class="kiri">kiri</a>
                     <img src="gambargede/mataramgede.png" class="gambargede" alt="mataram" />
+                    <audio controls class="audio">
+                      <source src="dubbing/mataram.mp3" type="audio/mp3" />
+                    </audio>
                   </div>
                 </li>
               </ul>
@@ -204,6 +237,9 @@
                   <div class="overlay" id="sriwijaya">
                     <a href="#" onclick="audio.pause()" class="close">X</a>
                     <img src="gambargede/sriwijayagede.png" class="gambargede" alt="sriwijaya" />
+                    <audio controls class="audio">
+                      <source src="dubbing/sriwijaya.mp3" type="audio/mp3" />
+                    </audio>
                   </div>
                 </li>
               </ul>
@@ -231,6 +267,9 @@
                     <a href="#" class="close">X</a>
                     <img src="gambargede/samuderapasaigede.png" class="gambargede" alt="samudera pasai" />
                     <a href="#kerajaanaceh" class="kanan">kanan</a>
+                    <audio controls class="audio">
+                      <source src="dubbing/samuderapasai.mp3" type="audio/mp3" />
+                    </audio>
                   </div>
                 </li>
 
@@ -244,6 +283,9 @@
                     <a href="#" class="close">X</a>
                     <a href="#samudera" class="kiri">kiri</a>
                     <img src="gambargede/aceh gede.png" class="gambargede" alt="aceh" />
+                    <audio controls class="audio">
+                      <source src="dubbing/aceh.mp3" type="audio/mp3" />
+                    </audio>
                   </div>
                 </li>
               </ul>
@@ -270,6 +312,9 @@
                   <div class="overlay" id="banten">
                     <a href="#" onclick="audio.pause()" class="close">X</a>
                     <img src="gambargede/bantengede.png" class="gambargede" alt="banten" />
+                    <audio controls class="audio">
+                      <source src="dubbing/banten.mp3" type="audio/mp3" />
+                    </audio>
                   </div>
                 </li>
               </ul>
@@ -296,6 +341,9 @@
                   <div class="overlay" id="ternate">
                     <a href="#" onclick="audio.pause()" class="close">X</a>
                     <img src="gambargede/ternategede.png" class="gambargede" alt="ternate" />
+                    <audio controls class="audio">
+                      <source src="dubbing/ternate.mp3" type="audio/mp3" />
+                    </audio>
                   </div>
                 </li>
               </ul>
@@ -322,6 +370,9 @@
                   <div class="overlay" id="tidore">
                     <a href="#" onclick="audio.pause()" class="close">X</a>
                     <img src="gambargede/tidoregede.png" class="gambargede" alt="tidore" />
+                    <audio controls class="audio">
+                      <source src="dubbing/tidore.mp3" type="audio/mp3" />
+                    </audio>
                   </div>
                 </li>
               </ul>
@@ -348,6 +399,9 @@
                   <div class="overlay" id="gowa">
                     <a href="#" onclick="audio.pause()" class="close">X</a>
                     <img src="gambargede/gowagede.png" class="gambargede" alt="gowa" />
+                    <audio controls class="audio">
+                      <source src="dubbing/gowa.mp3" type="audio/mp3" />
+                    </audio>
                   </div>
                 </li>
               </ul>
